@@ -1,0 +1,28 @@
+.jumbotron {
+    text-align: center;
+    background-image: linear-gradient(to right, black, red);
+    color: white;
+    border-radius: 0;
+    height: 100vh;
+}
+.icon {
+    text-decoration: none;
+    color: white;
+}
+.icon:hover {
+    color:red;
+}
+.footer {
+    background-image: linear-gradient(to right, black, red);
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+#down-arrow {
+    margin-top: 30%;
+}
+#down-arrow:hover {
+    color: red;
+    cursor: pointer;
+}
