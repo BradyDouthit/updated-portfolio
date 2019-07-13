@@ -1,9 +1,5 @@
-html {
-    background-image: linear-gradient(to right, black, red);
-
-}
 body {
-    background-image: linear-gradient(to right, black, red);
+    background-color: black;
 }
 .jumbotron {
     text-align: center;
@@ -11,13 +7,15 @@ body {
     color: white;
     border-radius: 0;
     height: 100vh;
+    margin-bottom: 0;
 }
-.icon {
+#project-arrow {
     text-decoration: none;
     color: white;
 }
-.icon:hover {
+#project-arrow:hover {
     color:red;
+    cursor: pointer;
 }
 .footer {
     background-image: linear-gradient(to right, black, red);
@@ -26,21 +24,21 @@ body {
     position: absolute;
     width: 100%;
 }
-#down-arrow {
+#project-arrow {
     margin-top: 50vh;
 }
-#arrow-icon:hover {
-    color: red;
-    cursor: pointer;
+.icon {
+    color: white;
 }
 #projects {
     height: 100vh;
     border-top: 5px solid gray;
+    background-image: linear-gradient(to right, black, lime);
 }
 #about-me {
     margin-top: 3vh;
 }
-#projects-header {
+.header {
     width: 100%;
     text-align: center;
     color: white;
@@ -65,9 +63,20 @@ body {
     background-color: gray;
     color: white;
 }
-.card-deck {
-    
-}
 .card-img-top {
     margin-top: 0;
+}
+#contact {
+    height: 100vh;
+    background-image: linear-gradient(to right, black, blue);
+    border-top: 5px solid gray;
+}
+#contact-arrow-div {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+#contact-arrow:hover {
+    color: lime;
+    cursor: pointer;
 }
