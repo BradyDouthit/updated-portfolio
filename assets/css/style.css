@@ -28,9 +28,11 @@
 }
 #projects {
     height: 1000px;
-    width: 100%;
-    background-color: gray;
 }
 #about-me {
     margin-top: 3vh;
+}
+#projects-header {
+    width: 100%;
+    text-align: center;
 }
