@@ -1,3 +1,10 @@
+html {
+    background-image: linear-gradient(to right, black, red);
+
+}
+body {
+    background-image: linear-gradient(to right, black, red);
+}
 .jumbotron {
     text-align: center;
     background-image: linear-gradient(to right, black, red);
@@ -27,7 +34,8 @@
     cursor: pointer;
 }
 #projects {
-    height: 1000px;
+    height: 100vh;
+    border-top: 5px solid gray;
 }
 #about-me {
     margin-top: 3vh;
@@ -35,6 +43,7 @@
 #projects-header {
     width: 100%;
     text-align: center;
+    color: white;
 }
 .card-img-top {
 }
