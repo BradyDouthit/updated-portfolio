@@ -45,7 +45,8 @@ body {
     text-align: center;
     color: white;
 }
-.card-img-top {
+.card-title {
+    padding-top: 0;
 }
 .left-button {
     position: absolute;
@@ -59,4 +60,14 @@ body {
 }
 .card-text {
     padding-bottom: 10px;
+}
+.card {
+    background-color: gray;
+    color: white;
+}
+.card-deck {
+    
+}
+.card-img-top {
+    margin-top: 0;
 }
