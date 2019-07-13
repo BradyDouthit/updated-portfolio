@@ -31,7 +31,6 @@ body {
     color: white;
 }
 #projects {
-    height: 100vh;
     background-image: linear-gradient(to right, black, lime);
 }
 #about-me {
