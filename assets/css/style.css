@@ -20,7 +20,7 @@
     width: 100%;
 }
 #down-arrow {
-    margin-top: 60vh;
+    margin-top: 50vh;
 }
 #arrow-icon:hover {
     color: red;
@@ -35,4 +35,19 @@
 #projects-header {
     width: 100%;
     text-align: center;
+}
+.card-img-top {
+}
+.left-button {
+    position: absolute;
+    bottom: 5px;
+    left: 3.7%;
+}
+.right-button {
+    position: absolute;
+    bottom: 5px;
+    left: 32%;
+}
+.card-text {
+    padding-bottom: 10px;
 }
