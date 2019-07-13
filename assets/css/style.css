@@ -56,7 +56,7 @@ body {
 .right-button {
     position: absolute;
     bottom: 5px;
-    left: 32%;
+    margin-left: 131px;
 }
 .card-text {
     padding-bottom: 10px;
