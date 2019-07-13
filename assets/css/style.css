@@ -20,7 +20,7 @@
     width: 100%;
 }
 #down-arrow {
-    margin-top: 30%;
+    margin-top: 60vh;
 }
 #arrow-icon:hover {
     color: red;
@@ -30,4 +30,7 @@
     height: 1000px;
     width: 100%;
     background-color: gray;
+}
+#about-me {
+    margin-top: 3vh;
 }
