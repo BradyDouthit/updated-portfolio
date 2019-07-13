@@ -32,7 +32,6 @@ body {
 }
 #projects {
     height: 100vh;
-    border-top: 5px solid gray;
     background-image: linear-gradient(to right, black, lime);
 }
 #about-me {
@@ -69,7 +68,6 @@ body {
 #contact {
     height: 100vh;
     background-image: linear-gradient(to right, black, blue);
-    border-top: 5px solid gray;
 }
 #contact-arrow-div {
     margin-top: 10px;
@@ -79,4 +77,10 @@ body {
 #contact-arrow:hover {
     color: lime;
     cursor: pointer;
+}
+.fa-linkedin:hover {
+    color: red;
+}
+.fa-github-square:hover {
+    color: red;
 }
