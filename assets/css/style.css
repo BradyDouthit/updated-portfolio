@@ -7,11 +7,13 @@ body {
     color: white;
     border-radius: 0;
     height: 100vh;
+    width: 100%;
     margin-bottom: 0;
 }
 #project-arrow {
     text-decoration: none;
     color: white;
+    margin-top: 55vh;
 }
 #project-arrow:hover {
     color:red;
@@ -24,15 +26,13 @@ body {
     position: absolute;
     width: 100%;
 }
-#project-arrow {
-    margin-top: 60vh;
-}
 .icon {
     color: white;
 }
 #projects {
     background-image: linear-gradient(to right, black, lime);
     min-height: 100vh;
+    width: 100%;
 }
 #about-me {
     margin-top: 3vh;
@@ -67,6 +67,7 @@ body {
 }
 #contact {
     height: 100vh;
+    width: 100%;
     background-image: linear-gradient(to right, black, blue);
 }
 #contact-arrow-div {
