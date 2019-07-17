@@ -116,6 +116,7 @@ html {
     }
     .card-title {
         padding-top: 0;
+        text-align: initial;
     }
     .card-text {
         text-align: initial;
