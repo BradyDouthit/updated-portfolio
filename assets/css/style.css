@@ -1,5 +1,8 @@
-body {
+html {
     background-color: black;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-x:hidden;
 }
 .jumbotron {
     text-align: center;
@@ -7,7 +10,8 @@ body {
     color: white;
     border-radius: 0;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     margin-bottom: 0;
 }
 #project-arrow {
@@ -32,42 +36,32 @@ body {
 #projects {
     background-image: linear-gradient(to right, black, lime);
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    padding-bottom: 10px;
 }
 #about-me {
     margin-top: 3vh;
 }
 .header {
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     text-align: center;
     color: white;
 }
-.card-title {
-    padding-top: 0;
-}
 .left-button {
-    position: absolute;
-    bottom: 5px;
-    left: 3.7%;
+    position: relative;
+    width: 200px;
 }
 .right-button {
-    position: absolute;
-    bottom: 5px;
-    margin-left: 131px;
-}
-.card-text {
-    padding-bottom: 10px;
-}
-.card {
-    color: white;
-    background-color: black;
-}
-.card-img-top {
-    margin-top: 0;
+    position: relative;
+    margin-top: 10px;
+    width: 200px;
 }
 #contact {
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     background-image: linear-gradient(to right, black, blue);
 }
 #contact-arrow-div {
@@ -92,7 +86,10 @@ body {
     display: none;
 }
 @media only screen and (max-width: 600px) {
-  
+    
+    body {
+        overflow-x:hidden;
+    }
     #carousel-container {
         display: none;
     }
@@ -101,6 +98,27 @@ body {
         display: flex;
         -ms-flex-direction: column;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card-text {
+        padding-bottom: 10px;
+    }
+    .card {
+        color: white;
+        background-color: black;
+        margin: 0 auto;
+        float: none;
+        width: 75vw;
+    }
+    .card-img-top {
+        margin-top: 0;
+    }
+    .card-title {
+        padding-top: 0;
+    }
+    .card-text {
+        text-align: initial;
     }
     
 }
