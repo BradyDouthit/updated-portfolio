@@ -88,3 +88,18 @@ body {
 #carousel-container {
     width: 70vw;
 }
+.card-deck {
+    display: none;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    #carousel-container {
+        display: none;
+    }
+    .card-deck {
+        display: inherit;
+        width: 70vw;
+    }
+    
+}
+  
