@@ -85,6 +85,6 @@ body {
 .fa-github-square:hover {
     color: red;
 }
-.btn {
-    border-radius: 50px;
+#carousel-container {
+    width: 70vw;
 }
