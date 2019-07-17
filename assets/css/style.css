@@ -80,7 +80,13 @@ html {
     color: red;
 }
 #carousel-container {
-    width: 70vw;
+    width: 80vw;
+}
+.caption-background {
+    background-color:black;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50%;
 }
 .card-deck {
     display: none;
