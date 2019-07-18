@@ -23,4 +23,7 @@ $("#about-crumb").click(function() {
         scrollTop: $(".jumbotron").offset().top},
         'slow');
 });
+$('.carousel').carousel({
+    interval: 10000
+  })
 

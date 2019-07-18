@@ -174,6 +174,13 @@ html {
     color: blue;
     text-decoration: none;
 }
+#contact-icon {
+    color:white;
+}
+#contact-icon:hover {
+    color:blue;
+}
+
 @keyframes animate {
     0%{
         opacity: 0;
@@ -187,6 +194,12 @@ html {
         transform: rotate(45deg) translate(20px,20px);
         border-bottom: 5px solid black;
         border-right: 5px solid black;        
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .btn-success {
+        margin-top: 8px;
+        width: 150px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -231,7 +244,7 @@ html {
     .arrow{
         position: static;
         top: 70%;
-        margin-left: 67vw;
+        margin-left: 51% !important;
         margin-top: 70px;
         transform: translate(-50%,-50%);
     }
@@ -249,6 +262,31 @@ html {
         animation-delay: -0.2s;
     }
     .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    .contact-arrow{
+        text-align: center;
+        width: 11px;
+        margin-left: 49.5% !important;
+        margin-top: 7vh;
+        transform: translate(-50%,-50%);
+        padding-bottom: 20px;
+    }
+    .contact-arrow span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+        margin: -10px;
+        transform: rotate(45deg);
+        
+        animation: animate 2s infinite;
+    }
+    .contact-arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .contact-arrow span:nth-child(3){
         animation-delay: -0.4s;
     }
     @keyframes animate {
