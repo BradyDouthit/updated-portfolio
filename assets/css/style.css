@@ -180,7 +180,19 @@ html {
 #contact-icon:hover {
     color:blue;
 }
-
+.contact-info {
+    text-align: center;
+    margin-top: 15%;
+}
+.contact-text {
+    color: white;
+}
+#linked-link {
+    text-decoration: underline;
+}
+#git-link {
+    text-decoration: underline;
+}
 @keyframes animate {
     0%{
         opacity: 0;
