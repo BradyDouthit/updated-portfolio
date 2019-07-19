@@ -8,6 +8,11 @@ $("#contact-arrow").click(function() {
         scrollTop: $("#contact").offset().top},
         'slow');
 });
+$("#contact-arrow-mobile").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact-mobile").offset().top},
+        'slow');
+});
 $("#contact-crumb").click(function() {
     $('html,body').animate({
         scrollTop: $("#contact").offset().top},
@@ -25,5 +30,5 @@ $("#about-crumb").click(function() {
 });
 $('.carousel').carousel({
     interval: 10000
-  })
+});
 
