@@ -23,10 +23,6 @@ html {
     padding-right: 0; 
     padding-left: 0; 
 }
-#project-arrow:hover {
-    color:red;
-    cursor: pointer;
-}
 .footer {
     background-image: linear-gradient(to right, black, red);
     text-align: center;
@@ -139,6 +135,10 @@ html {
 .contact-arrow span:nth-child(3){
     animation-delay: -0.4s;
 }
+.fa-file-pdf:hover {
+    color: blue;
+    cursor: pointer;
+}
 .fixed-bottom {
     color: white;
     background-image: linear-gradient(to right, black, white);
@@ -153,6 +153,9 @@ html {
 }
 .crumb-link {
     color: white;
+}
+.contact-link:hover {
+    color:blue;
 }
 #about-crumb:hover {
     color: red;
@@ -183,6 +186,9 @@ html {
     text-decoration: underline;
 }
 #git-link {
+    text-decoration: underline;
+}
+#resume-link {
     text-decoration: underline;
 }
 #contact-mobile {
