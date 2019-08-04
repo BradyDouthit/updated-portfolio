@@ -52,6 +52,7 @@ html {
 .left-button {
     position: relative;
     width: 200px;
+    margin-top: 10px;
 }
 .right-button {
     position: relative;
@@ -222,10 +223,54 @@ html {
     }
 }
 @media only screen and (max-width: 1180px) {
-    .btn-success {
-        margin-top: 8px;
-        width: 150px;
+    #carousel-container {
+        display: none;
     }
+    .card-deck {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card {
+        color: white;
+        background-color: black;
+        margin: 0 auto;
+        margin-top: 3vh;
+        float: none;
+        width: 75vw;
+    }
+    .card-img-top {
+        margin-top: 0;
+    }
+    .card-title {
+        padding-top: 0;
+        text-align: initial;
+    }
+    .card-text {
+        text-align: initial;
+    }
+    #contact {
+        display: none;
+    }
+    #contact-mobile {
+        display: block;
+        min-height: 100vh;
+        width: 100vw;
+        max-width: 100vw;
+        background-image: linear-gradient(to right, black, blue);
+    }
+    footer {
+        display: none;
+    }
+    .col {
+        margin-top: 3vh;
+    }
+}
+@media only screen and (max-width: 992px) {
+    
 }
 @media only screen and (max-width: 600px) {
     .contact-arrow{
@@ -259,37 +304,6 @@ html {
     }
     #carousel-container {
         display: none;
-    }
-    footer {
-        display: none;
-    }
-    .card-deck {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .card-text {
-        padding-bottom: 10px;
-    }
-    .card {
-        color: white;
-        background-color: black;
-        margin: 0 auto;
-        float: none;
-        width: 75vw;
-    }
-    .card-img-top {
-        margin-top: 0;
-    }
-    .card-title {
-        padding-top: 0;
-        text-align: initial;
-    }
-    .card-text {
-        text-align: initial;
     }
     .arrow{
         position: static;
@@ -359,16 +373,7 @@ html {
     .contact-arrow-mobile span:nth-child(3){
         animation-delay: -0.4s;
     }
-    #contact {
-        display: none;
-    }
-    #contact-mobile {
-        display: block;
-        min-height: 100vh;
-        width: 100vw;
-        max-width: 100vw;
-        background-image: linear-gradient(to right, black, blue);
-    }
+    
     
     @keyframes animate {
         0%{
