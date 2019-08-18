@@ -255,6 +255,9 @@ html {
     #contact {
         display: none;
     }
+    #contact-arrow {
+        display: none;
+    }
     #contact-mobile {
         display: block;
         min-height: 100vh;
@@ -267,6 +270,100 @@ html {
     }
     .col {
         margin-top: 3vh;
+    }
+    .contact-arrow-mobile{
+        text-align: center;
+        width: 11px;
+        margin-left: 49.5%;
+        margin-top: 10vh;
+        transform: translate(-50%,-50%);
+    }
+    .contact-arrow-mobile:hover {
+        cursor: pointer;
+    }
+    .contact-arrow-mobile span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+        transform: rotate(45deg);
+        
+        animation: animate 2s infinite;
+    }
+    .contact-arrow-mobile span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .contact-arrow-mobile span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    .arrow{
+        position: static;
+        top: 70%;
+        margin-left: 51% !important;
+        margin-top: 70px;
+        transform: translate(-50%,-50%);
+    }
+    .arrow span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    .contact-arrow{
+        text-align: center;
+        width: 11px;
+        margin-left: 49.5% !important;
+        margin-top: 7vh;
+        transform: translate(-50%,-50%);
+        padding-bottom: 20px;
+    }
+    .contact-arrow span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+        margin: -10px;
+        transform: rotate(45deg);
+        
+        animation: animate 2s infinite;
+    }
+    .contact-arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .contact-arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    .contact-arrow-mobile span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+        margin: -10px;
+        transform: rotate(45deg);
+        
+        animation: animate 2s infinite;
+    }
+    .contact-arrow-mobile span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .contact-arrow-mobile span:nth-child(3){
+        animation-delay: -0.4s;
     }
 }
 @media only screen and (max-width: 992px) {
